@@ -1,5 +1,5 @@
 .text-input{
-    width: 300px;
+    min-width: 300px;
     height: 26px;
     border-radius: 20px;
     border: 2px solid gray;
@@ -8,7 +8,24 @@
     text-align: left; 
     caret-color:green;
     transition: border .2s ease-in;
-   outline:none;
+    outline:none;
+    font-size: 13px;
+    text-align: left;
+    background-color: #e6e6e6;
+}
+.lupa{
+    position:absolute;
+    z-index: 99;
+    left:10px;
+    align-self: center;
+}
+
+.barra{
+    position:relative;
+    display: flex;
+    min-width: 300px;
+    align-items: center;
+    justify-content: center;
 }
 
 .text-input:focus{
