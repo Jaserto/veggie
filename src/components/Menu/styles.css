@@ -1,0 +1,9 @@
+.menu, .alineado, .menu-texto{
+    display:flex;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+.logo{
+    width: 80px;
+}
