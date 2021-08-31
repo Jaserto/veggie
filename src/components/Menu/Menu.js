@@ -19,8 +19,9 @@ export const Menu = () => {
                         Producto Habituales
                     </li>
                 </ul>
+                
             </div>
-            <div className="login">
+            <div className="login texto-item">
                 <p>Identificate</p>
             </div>
         </div>

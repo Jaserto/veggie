@@ -2,7 +2,9 @@ body {
   margin: 0;
   padding:0;
 }
-
+*{
+  box-sizing: border-box;
+}
 html{
   font-size: 13px;
 }
@@ -10,6 +12,11 @@ html{
 .layout{
   width: 100vw;
   height: 100vh;
+}
+
+.body{
+  margin: 0 40px;
+  padding-top: 35px;
 }
 
 code {
