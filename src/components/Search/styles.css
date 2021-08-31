@@ -1,4 +1,16 @@
 .text-input{
-    width: 100px;
-    height: 50px;
+    width: 300px;
+    height: 26px;
+    border-radius: 20px;
+    border: 2px solid gray;
+    box-sizing: content-box;
+    padding: 5px 35px;
+    text-align: left; 
+    caret-color:green;
+    transition: border .2s ease-in;
+   outline:none;
+}
+
+.text-input:focus{
+    border: 2px solid green;
 }

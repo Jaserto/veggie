@@ -9,13 +9,13 @@ export const Menu = () => {
     return (
         <div className="menu">
             <div className="alineado">
-            <img  alt="logo" loading="lazy" className="logo" src={images}/>
+            <img  alt="logo" className="logo" src={images}/>
                 <Search />
                 <ul className="menu-texto">
-                    <li>
+                    <li className="texto-item">
                         Catalogo
                     </li>
-                    <li>
+                    <li className="texto-item">
                         Producto Habituales
                     </li>
                 </ul>
