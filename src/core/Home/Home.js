@@ -4,8 +4,8 @@ import "./styles.css"
 
 const Home = () => {
     return (
-        <Layout title="home" className="home">
-            <div>
+        <Layout title="home" >
+            <div className="home">
                 <h2>Productos del momento</h2>
                 <p>Selección de productos destacados</p>
                 <div className="banner">
@@ -15,9 +15,10 @@ const Home = () => {
                         <button className="boton-temporada">Ver productos</button>
                     </div>  
                     </div>
-                
-                  
                 </div>
+                <hr/>
+                <h2>Novedadades</h2>
+                <p>Productos recién añadidos o mejorados</p>
             </div>
         </Layout>
     )

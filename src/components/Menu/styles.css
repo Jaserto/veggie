@@ -5,6 +5,7 @@
 }
 .menu{
     height:80px;
+    width: 100vw;
     align-items: center; 
     border-bottom: 1px solid gainsboro;
 }
