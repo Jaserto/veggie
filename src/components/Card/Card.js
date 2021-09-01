@@ -3,8 +3,8 @@ import React from 'react'
  const Card = () => {
     return (
         <div className="card">
-            <p>Pan mini Semillas</p>
-            <p>1 ud.</p>
+            <span>Pan mini Semillas</span>
+            <span>1 ud.</span>
         </div>
     )
 }
