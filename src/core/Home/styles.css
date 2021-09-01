@@ -1,13 +1,13 @@
 .banner{
-    width: 1100px;
-    height: 220px;
+    width: 100% ;
+    height: 240px;
     display:flex;
     flex-direction: column;
     border-radius: 9px;
     justify-content: center; 
     background-image: url("../../assets/verduras.jpg");
     background-size:cover;
-    
+    transition: box-shadow .2s ease-in;
 }
 /* .banner-background{
     display: flex;
@@ -20,15 +20,19 @@ background: linear-gradient(90deg, rgba(0, 0, 0, 0.6), rgba(255, 255, 255, 0));
 } */
 .banner:hover{
     /*  */
-    transition: box-shadow .2s ease-in;
-    box-shadow: 0 2px 14px 0 rgba(230,229,227,0.3);
+
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
 }
 .boton-temporada{
+    background-color: rgb(255, 222, 112);
+    cursor: pointer;
+    border: 1px solid orange;
     width: 150px;
     height: 40px;
+    font-size: 14px;
+    font-weight: 600;
     outline:none;
     border-radius: 20px;
-    border: none;
 }
 
 .banner-contenido{
@@ -38,4 +42,17 @@ background: linear-gradient(90deg, rgba(0, 0, 0, 0.6), rgba(255, 255, 255, 0));
 .temporada-text{
     font-size: 30px;
     color: white;
+}
+.productos{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+   
+   flex-wrap: wrap;
+}
+
+.home{
+    width: 100vw;
+    padding: 0 25rem;
+    margin-bottom: 20px;
 }

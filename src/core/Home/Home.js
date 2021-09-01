@@ -1,8 +1,12 @@
 import React from 'react'
+import Card from '../../components/Card/Card'
 import Layout from '../Layout'
 import "./styles.css"
 
 const Home = () => {
+    const cardmap = Array(10).fill(<Card />);
+
+
     return (
         <Layout title="home" >
             <div className="home">
@@ -17,8 +21,11 @@ const Home = () => {
                     </div>
                 </div>
                 <hr/>
-                <h2>Novedadades</h2>
+                <h2>Novedades</h2>
                 <p>Productos recién añadidos o mejorados</p>
+                <div className="productos">
+                  {cardmap}
+                </div>
             </div>
         </Layout>
     )
