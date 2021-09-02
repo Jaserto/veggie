@@ -2,6 +2,7 @@ import React from 'react'
 import { Search } from '../Search/Search'
 import logo from '../../assets/logo.png'
 import "./styles.css"
+import { Link } from 'react-router-dom'
 
 
 export const Menu = () => {
@@ -16,10 +17,15 @@ export const Menu = () => {
                 <Search />
                 <ul className="menu-texto">
                     <li className="texto-item">
-                        <span className="nav-item">Catálogo</span>
+                    <Link to="/catalogo" className="link">
+                         <span className="nav-item">Catálogo</span>
+                    </Link>
+             
                     </li>
                     <li className="texto-item">
-                        <span className="nav-item"> Productos Habituales</span>
+                    <Link to="/habituales" className="link">
+                         <span className="nav-item">Productos Habituales</span>
+                    </Link>
                     </li>
                 </ul>
                 

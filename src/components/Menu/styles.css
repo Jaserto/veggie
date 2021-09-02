@@ -12,6 +12,7 @@
     position: sticky;
     position: -webkit-sticky;
     top:0;
+    z-index: 99999;
     background-color: white;
 }
 
@@ -40,9 +41,16 @@
     cursor: pointer;
 }
 
+.link{
+    text-decoration: none;
+    list-style: none;
+    color:rgb(168, 168, 168);
+    font-weight: bold;
+}
+
 .logo{
     width: 120px;
-    height:30px;
+    height:28px;
     padding-right: 15px;
     margin: 0 28px;  
 }

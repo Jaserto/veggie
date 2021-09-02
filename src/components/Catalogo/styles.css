@@ -1,0 +1,16 @@
+.catalogo-card{
+    margin-left: 50px;
+    padding-right: 30px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.productos-card{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: 50px;
+}
