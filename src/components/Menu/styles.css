@@ -15,7 +15,20 @@
     z-index: 99999;
     background-color: white;
 }
-
+.indentify{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    top: 90px;
+    right: 80px;
+    z-index: 9999;
+    padding: 25px;
+    border-radius: 8px;
+    background-color: rgb(230, 230, 230);
+}
+.none{
+    display: none;
+}
 .alineado{  
     align-items: center;
 }
