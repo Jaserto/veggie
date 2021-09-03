@@ -20,7 +20,7 @@ const Catalogo = ({children}) => {
                     defaultSidebarWidth="900"
                     docked="true"
                     touch="true"  
-                    styles={{ root:{top:80},sidebar: {background: "white",width:350},content: {transition:false} }}
+                    styles={{ root:{top:80},sidebar: {background: "white",width:350, overflowX:'hidden'},content: {transition:false} }}
                 >
                    {/*    <Menu /> */}
                       <div className="catalogo-card">

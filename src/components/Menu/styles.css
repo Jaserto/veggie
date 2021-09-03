@@ -4,6 +4,21 @@
     flex-direction: row;
  
 }
+.circle{
+    position: relative;
+    content: '';
+    width: 20px;
+    left: 22px;
+    top: 10px;
+    height: 20px;
+    border: 1px solid ;
+    border-radius: 10px;
+    background-color: #00ab61;
+    border: 1px solid rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 .menu{
     height:80px;
     width: 100%;
@@ -16,17 +31,52 @@
     background-color: white;
 }
 .indentify{
+    border: 1px solid rgb(211, 211, 211);
     position: absolute;
-    display: flex;
-    flex-direction: column;
+    width: 300px;
     top: 90px;
     right: 80px;
     z-index: 9999;
     padding: 25px;
-    border-radius: 8px;
-    background-color: rgb(230, 230, 230);
+    border-radius: 6px;
+    background-color: rgb(253, 253, 253);
+}
+.input-form{
+    padding: 10px;
+    height: 35px;
+    width: 100%;
+    border-radius: 4px;
+    border: none;
+    margin-bottom: 20px;
+    outline: none;
+    border: 1px solid rgb(211, 211, 211);
+}
+.input-form:focus{
+    border: 1px solid #00ab61;
+}
+
+.buttom-form{
+    background-color: #00ab61;
+    border-radius: 4px;
+    height: 35px;
+    width: 100%;
+   border: none;
+   color: white
+}
+.formulario{
+
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.indentify:hover{
+    -webkit-transition: opacity 2.5s 2.2s ease, all 0.5s 0s ease;
+    -moz-transition: opacity 2.5s 2.2s ease, all 0.5s 0s ease;
+    -o-transition: opacity 2.5s 2.2s ease, all 0.5s 0s ease;
+    transition: opacity 2.5s 2.2s ease, all 0.5s 0s ease;
 }
 .none{
+    
     display: none;
 }
 .alineado{  
